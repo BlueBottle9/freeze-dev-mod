@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "freeze-dev-mod",
+	"version": "0.0.1",
+	"name": "Freeze Dev Mod",
+	"description": "This mod is only used for devlopment",
+	"authors": [
+		"FsaxZ"
+	],
+	"contact": {
+		"homepage": "https://github.com/BlueBottle9",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/freeze-dev-mod/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"io.github.fsaxz.freezedevmod.Main"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
